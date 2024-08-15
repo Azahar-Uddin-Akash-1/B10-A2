@@ -366,16 +366,13 @@ display: flex;
 }
 .mainCalculatorScetion {
     gap: 190px;
-    margin-top: ;
+
 }
 .mainCalculatorScetion h2{
     color: rgb(255, 255, 255);
     font-size: 40px;
     padding-top: 50px;
     padding-bottom: 20px;
-}
-.formText {
-    
 }
 .formText h4{
     color: rgb(255, 255, 255);
