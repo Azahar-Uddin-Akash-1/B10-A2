@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* another font style */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100..900&family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Inter;
+    
+}
+
+
+.container_head {
+    background: linear-gradient(.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 200%), linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    ;
+
+}
+
+.menubar {
+    width: 1440px;
+    height: 715px;
+
+    margin: 0 auto;
+
+}
+
+.barIcon {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 190px;
+    justify-items: center;
+}
+
+.barIcon .icon {
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    font-weight: 300;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    color: rgba(255, 255, 255, 0);
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    padding: 0 5px;
+
+
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.homeDeg {
+    background: rgb(230, 83, 60);
+    padding: 6px 10px;
+    border-radius: 18px;
+
+}
+
+.barIcon .icon {
+    font-family: Inter;
+    font-size: 25px;
+
+}
+
+/* hero image and text css */
+.hero_container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.heroTextAr h3 {
+    font-size: 98px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.986);
+    padding: 40px 0;
+}
+
+.heroTextAr h3 .heroStyle {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+
+}
+
+.heroTitle {
+    padding-bottom: 40px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    letter-spacing: 2px;
+
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.fbuttons {
+    background: rgb(230, 83, 60);
+    padding: 15px 15px 15px 15px;
+    border-radius: 18px;
+
+    list-style: none;
+
+
+}
+
+.fbuttons:hover {
+    background: rgba(0, 0, 0, 0.329);
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+.fbuttons a:hover {
+    color: rgb(230, 83, 60);
+}
+
+.fbuttons a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 28px;
+}
+
+.sbuttons {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 15px 15px 15px 15px;
+    border-radius: 18px;
+    list-style: none;
+}
+
+.sbuttons:hover {
+    background: black;
+    border: 1px solid rgb(230, 83, 60);
+}
+
+.sbuttons a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 28px;
+}
+
+/* image start  */
+.heroImg .imG {
+    padding-top: 62px;
+}
+
+.box .box1 {
+    position: absolute;
+    width: 198px;
+    height: 100px;
+    left: 1407px;
+    top: 260px;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding-left: 45px;
+    padding-top: 6px;
+}
+
+.box .box1 h4 {
+    font-size: 36px;
+    padding-top: 10px;
+    color: rgb(250, 250, 249);
+
+}
+
+.box .box1 p {
+    color: rgba(214, 214, 214, 0.4);
+    font-size: 13px;
+}
+
+.box .box2 {
+    position: absolute;
+    width: 206px;
+    height: 96px;
+    left: 1080px;
+    top: 536px;
+    padding-left: 85px;
+    padding-top: 6px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+
+}
+
+.box .box2 h4 {
+    font-size: 36px;
+    padding-top: 10px;
+    color: rgb(250, 250, 249);
+
+}
+
+.box .box2 p {
+    color: rgba(214, 214, 214, 0.4);
+    font-size: 13px;
+}
+
+.round {
+    background-color: rgb(230, 83, 60);
+    border-radius: 100px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 30px;
+    top: 25px;
+}
+/* changeYourHabits start */
+.changeYourHabits{
+    width: auto;
+    height: 715px;
+    background: #000;
+}
+.habitsText h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 80px;
+}
+.habitsText p{
+    color: rgba(255, 255, 255, 0.347);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 100%;
+}
+/* card section */
+.cardSection{
+    
+    
+}
+.containerCard{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.imG img{
+    border-radius: 50%;
+}
+.imgT h5{
+    color: aliceblue;
+    font-size: 25px;
+}
+.imgT p{
+    color: rgba(240, 248, 255, 0.404);
+}
